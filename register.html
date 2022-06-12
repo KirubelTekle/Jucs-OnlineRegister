@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registercss.css">
+    <link rel="shortcut icon" type="image/jpg image/png" href="logo.jpg">
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="https://formsubmit.co/shibrumeron2@gmail.com" method="POST">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" name="Name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Enter Age" name="email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Telephone(+251)</label>
+                            <input type="number" placeholder="Enter your Telephone Number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother's Full Name</label>
+                            <input type="text" placeholder="Enter Mother's Full Name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Former School Name</label>
+                            <input type="text" placeholder="Enter your Former School Name" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Disability</label>
+                            <select required>
+                                <option disabled selected>No</option>
+                                <option>Mild</option>
+                                <option>Yes</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Kebele ID Number</label>
+                            <input type="number" placeholder="Enter Kebele ID number" required>
+                        </div>                
+                         <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+
+                            <div id="display-image">
+      <h4 style="font-size: 6px; text-align: center;">Insert Student's and Parent 3X3 Photo</h4>
+                            </div>
+                    </div>
+
+                     <button class="submit" id="myform">
+                            <a href="Thankyou.html"><span class="btnText">Apply</span></a>
+                         
+                        </button>
+                        
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>
